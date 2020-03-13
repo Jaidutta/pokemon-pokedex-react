@@ -1,0 +1,27 @@
+.Pokedex {
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.Pokedex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Pokedex-winner{
+  background-color: indianred;
+  color: black;
+  font-size: .8rem;
+  display: inline-block;
+  padding: .5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.Pokedex-loser{
+    background-color: rgb(122, 92, 205);
+    color: black;
+    font-size: 1rem;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+}
